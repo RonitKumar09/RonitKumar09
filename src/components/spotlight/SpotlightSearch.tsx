@@ -61,9 +61,7 @@ export function SpotlightSearch() {
   const [selectedIndex, setSelectedIndex] = useState(0)
 
   // Focus input on mount
-  useEffect(() => {
-    inputRef.current?.focus()
-  }, [])
+
 
   // Handle keyboard shortcuts
   useKeyboardShortcuts({
